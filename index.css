@@ -8,7 +8,7 @@
 
 header {
   display: flex;
-  height: 82px;
+  height: 108px;
   background-color: #ffffff;
   justify-content: space-between;
   align-items: center;
@@ -16,31 +16,37 @@ header {
 }
 
 .myntra_home {
-  height: 45px;
+  height: 48px;
 }
 
 .logo_container {
-  margin-left: 4%;
+  margin-left: 5%;
 }
 .action_bar {
   margin-right: 4%;
 }
 .navbar {
   display: flex;
-  min-width: 515px;
+  min-width: 500px;
   justify-content: space-evenly;
 }
 .navbar a {
-  font-size: 14px;
+  font-size: 15px;
   letter-spacing: 0.3px;
   color: #282c3f;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
+  padding: 13px 0px 13px 0px;
+  border-bottom: 3px solid #ffffff;
+}
+
+.navbar a:hover {
+  border-bottom: 3px solid #ff3f6c;
 }
 .navbar a sup {
   color: #ff3f6c;
-  font-size: 100%;
+  font-size: 80%;
   top: -0.4rem;
   line-height: 0;
   position: relative;
@@ -102,4 +108,49 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+/* banner image  */
+.banner {
+  margin-bottom: 3rem;
+}
+
+.catogory_heading {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 1.8em;
+  color: #3e4152;
+  font-weight: 700;
+  margin: 40px 0px 10px 30px;
+  max-height: 5em;
+  margin-bottom: 4rem;
+}
+
+/* sail items */
+.Catogory_items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+.offer_items {
+  height: 245px;
+  width: 210px;
+  margin: 3px;
+  border-radius: 7px;
+  border: 2px solid #0f1010;
+}
+
+.grand_items {
+  height: 240px;
+  width: 200px;
+  border-bottom: 2px solid rgb(217, 214, 214);
+}
+
+.cat_item {
+  height: 250px;
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 10px;
+
 }
